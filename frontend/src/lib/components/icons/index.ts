@@ -102,6 +102,7 @@ import MqttIcon from './MqttIcon.svelte'
 import McpIcon from './McpIcon.svelte'
 import SageIcon from './SageIcon.svelte'
 import ZohoIcon from './ZohoIcon.svelte'
+import PocketIdIcon from './PocketIdIcon.svelte'
 export const APP_TO_ICON_COMPONENT = {
 	postgresql: PostgresIcon,
 	mysql: Mysql,
@@ -208,7 +209,8 @@ export const APP_TO_ICON_COMPONENT = {
 	nats: NatsIcon,
 	mqtt: MqttIcon,
 	mcp: McpIcon,
-	zoho: ZohoIcon
+	zoho: ZohoIcon,
+	pocketid: PocketIdIcon
 } as const
 
 export {
@@ -308,5 +310,6 @@ export {
 	NatsIcon,
 	MqttIcon,
 	McpIcon,
-	ZohoIcon
+	ZohoIcon,
+	PocketIdIcon
 }
